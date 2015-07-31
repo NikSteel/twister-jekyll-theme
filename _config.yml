@@ -1,5 +1,5 @@
-name: Twister
-description: a powerful jekyll theme
+title: "Nik Steel"
+description: "On life, music, art, and technology"
 url: #place url
 baseurl: #place folder name if site is served in subfolder
 permalink: /:title/
@@ -7,18 +7,15 @@ paginate: 8
 paginate_path: /page/:num/
 tag_dir: /tag
 category_dir: /category
-author_dir: /author
-author_title_prefix: 'Posted by '
 media_folder: /img
-author_default_avatar: /profile-pic.jpg
-tumblr: "#"
-pinterest: "#"
-instagram: "#"
-twitter: "#"
-facebook: "#"
-youtube: "#"
-vimeo: "#"
-soundcloud: "#"
+
+# Author info
+author: Nik Steel
+avatar: /profile-pic.jpg
+author-site: "https://niksteel.com"
+twitter: "https://twitter.com/nik_steel"
+youtube: "https://www.youtube.com/c/niksteel"
+soundcloud: "https://soundcloud.com/nik-steel"
 
 
 encoding: utf-8

@@ -1,7 +1,29 @@
-<div class="row">
-    <a href="{{ site.baseurl | replace: '//', '/' }}/" class="logo noline">
-        {% include full.html %}
-        {% include logo.html %}
-        {% include icon.html %}
-    </a>
-</div>
+<header class="head">
+	<div class="row">
+	    <a href="{{ site.baseurl | replace: '//', '/' }}/" class="logo noline">
+	    	<h1>{{ site.title }}</h1>
+	    </a>
+
+        <nav class="iconnav">
+            <ul>
+                {% if site.twitter %}
+                    <li class="social">
+                        <a href="{{ site.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
+                    </li>
+                {% endif %}
+
+                {% if site.youtube %}
+                    <li class="social">
+                        <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
+                    </li>
+                {% endif %}
+
+                {% if site.soundcloud %}
+                    <li class="social">
+                        <a href="{{ site.soundcloud }}" class="soundcloud"><i class="fa fa-soundcloud"></i></a>
+                    </li>
+                {% endif %}
+            </ul>
+        </nav>
+	</div>
+</header>
