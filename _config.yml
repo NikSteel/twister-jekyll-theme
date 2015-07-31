@@ -20,6 +20,7 @@ youtube: "#"
 vimeo: "#"
 soundcloud: "#"
 
+
 encoding: utf-8
 defaults:
   -
@@ -36,6 +37,7 @@ kramdown:
   syntax_highlighter: rouge
 relative_permalinks: false
 exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md]
+
 
 # prose.io configurations
 prose:
